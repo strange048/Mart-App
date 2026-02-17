@@ -1,0 +1,50 @@
+.main {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.groceryDisplay {
+  margin-top: 2rem;
+}
+.groceryTypeHead {
+  display: flex;
+  justify-content: space-between;
+}
+.groceryTypeHead h1 {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.groceryTypeHead button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  color: rgba(8, 140, 3, 1);
+  margin: 5px;
+}
+.groceries {
+  margin: 10px;
+  padding: 2px;
+}
+.backtoTop {
+  position: fixed;
+  bottom: 80px;
+  left: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffffff;
+  color: #088c03;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 1000;
+  text-align: center;
+}
+
+.backToTop:hover {
+  opacity: 0.9;
+}

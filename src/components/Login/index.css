@@ -1,0 +1,142 @@
+.Login {
+  background-image: url('https://res.cloudinary.com/dgzksmwpz/image/upload/v1769860986/Screenshot_2026-01-31_171355_1_cyfofo.png');
+  height: 100dvh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 12px 28px rgba(109, 98, 98, 0.15);
+  border-radius: 14px;
+  padding: 2.5rem 3rem;
+  width: 100%;
+  max-width: 420px;
+}
+
+.LoginImage {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.LoginImage img {
+  height: 80px;
+}
+
+.LoginInput {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: rgba(51, 51, 51, 1);
+}
+
+.username,
+.password {
+  width: 100%;
+  height: 44px;
+  padding: 0 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(51, 51, 51, 1);
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.username:focus,
+.password:focus {
+  border-color: rgba(8, 140, 3, 1);
+  box-shadow: 0 0 0 2px rgba(8, 140, 3, 0.2);
+}
+
+.checkBox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.LoginInput button {
+  margin-top: 0.5rem;
+  padding: 0.9rem;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    transform 0.1s ease,
+    box-shadow 0.1s ease;
+}
+
+.LoginInput button:active {
+  transform: scale(0.98);
+}
+
+.username {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/847/847969.png');
+  background-repeat: no-repeat;
+  background-position: 12px center;
+  background-size: 18px;
+  padding-left: 42px;
+}
+
+.password {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/3064/3064155.png');
+  background-repeat: no-repeat;
+  background-position: 12px center;
+  background-size: 18px;
+  padding-left: 42px;
+}
+
+@media screen and (min-width: 1024px) {
+  .Login {
+    background-image: url('https://res.cloudinary.com/dgzksmwpz/image/upload/v1769860029/Screenshot_2026-01-31_171423_q9ll2o.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .LoginContainer {
+    width: 420px;
+    padding: 2.5rem 3rem;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .LoginImage {
+    margin-bottom: 1.5rem;
+  }
+
+  .LoginImage img {
+    height: 90px;
+  }
+
+  .LoginInput {
+    gap: 1rem;
+  }
+
+  .username,
+  .password {
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .checkBox input {
+    width: 18px;
+    height: 18px;
+  }
+
+  .LoginInput button {
+    padding: 0.9rem;
+    font-size: 16px;
+    border-radius: 6px;
+  }
+}

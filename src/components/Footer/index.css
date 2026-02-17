@@ -1,0 +1,20 @@
+.Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid rgba(128, 128, 128, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+.icons {
+  color: rgba(128, 128, 128, 1);
+  font-size: 32px;
+}
+.activeFooterBg {
+  color: rgba(8, 140, 3, 1);
+  font-size: 32px;
+}
